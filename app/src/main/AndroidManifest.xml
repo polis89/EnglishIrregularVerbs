@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.polis.englishirregularverbs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/englishverbs512"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="ru.polis.englishirregularverbs.games.CardsGameActivity"
+            android:label="@string/cards"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="ru.polis.englishirregularverbs.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="ru.polis.englishirregularverbs.games.TrueFalseGameActivity"
+            android:label="@string/true_or_false"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="ru.polis.englishirregularverbs.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="ru.polis.englishirregularverbs.games.TypeWordGameActivity"
+            android:label="@string/fill_the_gaps"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="ru.polis.englishirregularverbs.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan"/>
+
+        <activity android:name="ru.polis.englishirregularverbs.games.FullWordTypeGameActivity"
+            android:label="@string/type_words"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="ru.polis.englishirregularverbs.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan"/>
+
+        <activity android:name="ru.polis.englishirregularverbs.games.ResultActivity"
+            android:label="@string/result_activity_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="ru.polis.englishirregularverbs.MainActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
