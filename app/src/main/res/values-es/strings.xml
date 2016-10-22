@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_language">Lengua</string>
+    <string name="chooseLanguageTitle">Cambiar la lengua</string>
+    <string name="flag_image_description">Bandera</string>
+    <string name="OK">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="game_true">Cierto</string>
+    <string name="game_false">Falso</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+
+    <string name="practice">Ejercicios</string>
+    <string name="verbs">Verbos</string>
+    <string name="settings">Ajustes</string>
+    <string name="help_btn">Info</string>
+    <string name="info_cards">Hacer un verbo, seleccionando una de las respuestas ofrecidas.</string>
+    <string name="info_true_or_false">Competición de velocidad. Es correcto este verbo? Compruebe que lo más rápido posible.</string>
+    <string name="info_fill_the_gaps">Usted ve el verbo, pero un lugar está vacío. Llenar este vacío.</string>
+    <string name="info_type_word">Escriba las conjugaciones.</string>
+
+    <string name="true_or_false">Verdadero o falso</string>
+    <string name="cards">Tarjetas</string>
+    <string name="fill_the_gaps">Llenar los huecos</string>
+    <string name="type_words">Ortografía</string>
+
+    <string name="result_activity_name">Resultado</string>
+    <string name="result_perfect">Idealmente</string>
+    <string name="result_very_good">Excelente</string>
+    <string name="result_good">Bueno</string>
+    <string name="result_not_good">Promedio</string>
+    <string name="result_bad">Indiferentemente</string>
+    <string name="result_very_bad">Mal</string>
+    <string name="result_awful">Terriblemente</string>
+
+    <string name="not_enought_verb_message">No hay suficientes carbohidratos. Hacer más verbos activos o reducir el número de verbos para aprender</string>
+    <string name="true_answer_cnt">Las respuestas correctas: %d</string>
+    <string name="false_answer_cnt">Errores: %d</string>
+    <string name="result_percent">Exactitud: %d </string>
+    <string name="true_false_start">Principio</string>
+    <string name="true_false_score">Puntuación: %d</string>
+    <string name="true_false_multiple">Múltiple: %d</string>
+    <string name="true_false_your_score">Tu puntuación: %d</string>
+    <string name="true_false_record">Máxima puntuacion: %d</string>
+    <string name="type_word_hint">Escriba aquí</string>
+    <string name="type_word_button_dsc">checar respuesta</string>
+
+    <string name="hint_presens">Introduzca verbo en Infinitive</string>
+    <string name="hint_prateritum">Introduzca verbo en Past Simple</string>
+    <string name="hint_perfect">Introduzca verbo en Past Participle</string>
+
+    <!--Preferences-->
+    <string name="clear_progress">Restablecer su progreso</string>
+    <string name="choose_language">Elige lengua</string>
+    <string name="reset">Restablecer su progreso</string>
+    <string name="reset_apply_message">Restablecer el progreso de todas las palabras?</string>
+    <string name="words_in_exercise">Cantidad de palabras de felicitación</string>
+    <string name="number_picker_dialog_cards_game">Cantidad de palabras Tarjetas</string>
+    <string name="number_picker_dialog_fill_the_gaps_game">Cantidad de palabras Llenar los huecos</string>
+    <string name="number_picker_dialog_type_the_word_game">Cantidad de palabras Ortografía</string>
+    <string name="remove_ads">Quitar anuncios</string>
+    <string name="main_settings">Ajustes principales</string>
+    <string name="language_description">Elige lengua</string>
+    <string name="reset_description">El progreso de reposición</string>
+</resources>
