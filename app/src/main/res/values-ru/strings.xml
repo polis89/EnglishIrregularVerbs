@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">English Irregular Verbs</string>
+
     <string name="action_language">Язык</string>
     <string name="chooseLanguageTitle">Выберите язык</string>
     <string name="flag_image_description">Флаг</string>
